@@ -187,9 +187,21 @@ Setup for the GrapheneOS environment, version [2023121200](https://grapheneos.or
 ### Owner
 The admin profile for creating other user profiles. Should not be used for anything else. Data on other profiles can be purged by deleting the profile itself, but data on the owner profile cannot be deleted without a factory reset.
 
+* Set a PIN and disable Fingerprint Unlock
+
 ### Main
-The main profile for browsing the web, sending texts, and making phone calls.
-* Install Neo Store
+The main profile for browsing the web, taking photos and videos, sending texts, and making phone calls.
+
+* Set a PIN and enable Fingerprint Unlock
+* Enable the following application permissions:
+    * Camera: Allow "Camera", "Microphone"
+    * Contacts: Allow "Contacts", "Phone"
+    * Gallery: Allow "Storage Scopes"
+    * Messaging: Allow "Contacts", "Phone", "SMS"
+    * Phone: Allow "Call logs", "Contacts", "Phone"
+    * Vandium: Allow "Network"
+* Set an alarm
+
 
 ### Finance
 The profile for using personally identifiable apps.
