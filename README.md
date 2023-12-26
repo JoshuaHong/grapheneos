@@ -149,39 +149,40 @@ Setup for the GrapheneOS environment, version [2023121200](https://grapheneos.or
         * Regional preferences
             * 📝 Temperature - Celsius (°C)
             * 📝 First day of week - Sunday
-        * Gestures
-            * Quickly open camera
-                * ✅ Quickly open camera
-            * 📝 Navigation mode - Gesture navigation
-            * ❌ One-handed mode
-            * Tap to check phone
-                * ✅ Tap to check phone
-            * Lift to check phone
-                * ✅ Lift to check phone
-            * ✅ Prevent rignging - Vibrate
-        * Date & time
-            * ✅ Set time automatically
-            * ✅ Set automatically
-            * ❌ Use locale default
-            * ✅ Use 24-hour format
-        * System update
-            * 📝 Release channel - Stable
-            * 📝 Permitted networks - Any
-            * ✅ Require battery above warning level
-            * ❌ Require device to be charging
-            * ❌ Automatic reboot
-        * Multiple users
-            * ✅ Allow multiple users
-            * Users
-                * 📝 Owner
-                * 📝 Main
-                * 📝 Apps
-                * 📝 Finance
-                * 📝 Games
-                * 📝 Google
-            * ✅ Delete guest activity
-            * ❌ Allow guest to make phone calls
-            * ✅ Send notifications to current user
+    * Gestures
+        * Quickly open camera
+            * ✅ Quickly open camera
+        * 📝 Navigation mode - Gesture navigation
+        * One-handed mode
+            * ❌ Use one-handed mode
+        * Tap to check phone
+            * ✅ Tap to check phone
+        * Lift to check phone
+            * ✅ Lift to check phone
+        * ✅ Prevent rignging - Vibrate
+    * Date & time
+        * ✅ Set time automatically
+        * ✅ Set automatically
+        * ❌ Use locale default
+        * ✅ Use 24-hour format
+    * System update
+        * 📝 Release channel - Stable
+        * 📝 Permitted networks - Unmetered
+        * ✅ Require battery above warning level
+        * ❌ Require device to be charging
+        * ❌ Automatic reboot
+    * Multiple users
+        * ✅ Allow multiple users
+        * Users
+            * 📝 Owner
+            * 📝 Main
+            * 📝 Apps
+            * 📝 Finance
+            * 📝 Games
+            * 📝 Google
+        * ✅ Delete guest activity
+        * ❌ Allow guest to make phone calls
+        * ✅ Send notifications to current user
 
 ## Users
 ### Owner
