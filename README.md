@@ -29,17 +29,18 @@ Setup for the GrapheneOS environment.
         * Network preferences
             * ❌ Turn on Wi-Fi automatically
             * ❌ Notify for public networks
-            * 📝 Turn off Wi-Fi automatically - 1 minute
+            * 📝 Turn off Wi-Fi automatically - Never
     * ❌ Airplane mode
     * ❌ Hotspot & tethering
         * ❌ Wi-fi hotspot
         * ❌ USB tethering
         * ❌ Bluetooth tethering
         * ❌ Ethernet tethering
-    * ❌ Data Saver
+    * ✅ Data Saver
     * 📝 Private DNS - Automatic
     * 📝 Internet connectivity checks - GrapheneOS server
     * 📝 Attestation key provisioning - Enabled (GrapheneOS proxy)
+    * 📝 Widevine provisioning - Enabled (GrapheneOS proxy)
 * Connected Devices
     * Connection preferences
         * Bluetooth
@@ -72,13 +73,14 @@ Setup for the GrapheneOS environment.
     * ❌ Do Not Disturb
     * ❌ Flash notifications
     * ✅ Wireless emergency alerts
+        * 📝 Alert reminder - Once
     * ❌ Hide silent notifications in status bar
     * ❌ Allow notification snoozing
     * ✅ Notification dot on app icon
     * ✅ Enhanced notifications
 * Battery
     * Battery Saver
-        * ❌ Use Battery Saver
+        * ✅ Use Battery Saver
         * 📝 Set a schedule - 20%
         * ❌ Turn off at 90%
     * ✅ Battery percentage
@@ -99,7 +101,7 @@ Setup for the GrapheneOS environment.
     * ❌ Dark theme
     * ❌ Night Light
     * 📝 Colors - Adaptive
-    * ❌ Auto-rotate screen
+    * ✅ Auto-rotate screen
     * 📝 Screen resolution - High resolution
     * ✅ Smooth Display
     * ❌ Increase touch sensitivity
@@ -107,15 +109,21 @@ Setup for the GrapheneOS environment.
 * Wallpaper & style
     * ✅ Show notifications on the lock screen
 * Security
+    * 📝 Screen lock - PIN (⚙️)
+        * ✅ Enhanced PIN privacy
+        * 📝 Lock after screen timeout - Immediately
+        * ✅ Power button instantly locks
+    * 📝 Fingerprint Unlock
+        * ✅ Use for screen unlocking
     * 📝 Auto reboot - 72 hours
     * 📝 USB peripherals - Allow new USB peripherals when unlocked
     * Secure app spawning
         * ✅ Use secure app spawning
     * ✅ Automatic exploit protection compatibility mode
     * Memory tagging in third-party apps
-        * ❌ Enable by default
+        * ✅ Enable by default
     * Native code debugging
-        * ❌ Block for third-party apps by default
+        * ✅ Block for third-party apps by default
     * ❌ Scramble PIN input layout
     * ✅ Allow camera access when the device is locked
     * ❌ Notify about system process crashes
@@ -175,40 +183,70 @@ Setup for the GrapheneOS environment.
     * Multiple users
         * ✅ Allow multiple users
         * Users
-            * 📝 Owner
-            * 📝 Main
-            * 📝 Apps
-            * 📝 Finance
-            * 📝 Games
-            * 📝 Google
+            * 📝 Owner (red)
+            * 📝 Main (blue)
+                * ❌ Allow running in the background
+                * ❌ Turn on phone calls & SMS
+                * 📝 App installs and updates - Enabled
+            * 📝 Finance (green)
+                * ❌ Allow running in the background
+                * ❌ Turn on phone calls & SMS
+                * 📝 App installs and updates - Enabled
+            * 📝 Social (orange)
+                * ❌ Allow running in the background
+                * ❌ Turn on phone calls & SMS
+                * 📝 App installs and updates - Enabled
+            * 📝 Google (yellow)
+                * ❌ Allow running in the background
+                * ❌ Turn on phone calls & SMS
+                * 📝 App installs and updates - Enabled
+            * 📝 Private (purple)
+                * ❌ Allow running in the background
+                * ❌ Turn on phone calls & SMS
+                * 📝 App installs and updates - Enabled
         * ✅ Delete guest activity
         * ❌ Allow guest to make phone calls
         * ✅ Send notifications to current user
+* Home screen
+    * Notification bar
+        * Internet | Auto-rotate
+        * Location | Airplane mode
+        * Screen record | Flashlight
+        * Camera access | Mic access
+        * Battery Saver | Data Saver
+    * Home settings
+        * 📝 Notification dots - On
+        * ❌ Add app icons to home screen
+        * ❌ Allow home screen rotation
+  * Application settings
+      * 📝 Update the settings for each application
 
 ## Users
 ### Owner
-The admin profile for creating other user profiles. Should not be used for anything else. Data on other profiles can be purged by deleting the profile itself, but data on the owner profile cannot be deleted without a factory reset.
+The admin profile for creating other user profiles. Should not be used for anything besides sending texts, and making phone calls. Data on other profiles can be purged by deleting the profile itself, but data on the owner profile cannot be deleted without a factory reset.
 
-* Set a PIN and disable Fingerprint Unlock
+* Set alarms
 * Enable the following application permissions:
-    * Messaging: Allow "SMS"
-
-### Main
-The main profile for browsing the web, taking photos and videos, sending texts, and making phone calls.
-
-* Set a PIN and enable Fingerprint Unlock
-* Enable the following application permissions:
-    * Camera: Allow "Camera", "Microphone", "Sensors"
     * Contacts: Allow "Contacts", "Phone"
-    * Gallery: Allow "Storage Scopes"
     * Messaging: Allow "Contacts", "Phone", "SMS"
     * Phone: Allow "Call logs", "Contacts", "Phone"
-    * Vandium: Allow "Network"
-* Set an alarm
 
+### Main
+The main profile for browsing the web, taking photos and videos, and using FOSS applications.
+
+* Enable the following application permissions:
+    * Camera: Allow "Camera", "Microphone", "Sensors"
+    * Gallery: Allow "Storage Scopes" for the photo and screenshot directories.
+    * Vandium: Allow "Network"
 
 ### Finance
-The profile for using personally identifiable apps.
+The profile for using personally identifiable applications.
+
+### Social
+The profile for using non-FOSS applications.
 
 ### Google
 The profile for running Google Play Services.
+
+### Private
+The profile for all other applications.
