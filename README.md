@@ -236,7 +236,7 @@ The main profile for browsing the web, taking photos and videos, and using FOSS 
 
 * Enable the following application permissions:
     * Camera: Allow "Camera", "Microphone", "Sensors"
-    * Gallery: Allow "Storage Scopes" for the photo and screenshot directories.
+    * Gallery: Allow "Storage Scopes" for photo, screenshot, and screen record directories.
     * Vandium: Allow "Network"
 
 ### Finance
