@@ -223,7 +223,7 @@ Setup for the GrapheneOS environment.
 
 ## Users
 ### Owner
-The admin profile for creating other user profiles. Should not be used for anything besides sending texts, and making phone calls. Data on other profiles can be purged by deleting the profile itself, but data on the owner profile cannot be deleted without a factory reset.
+The admin profile for creating other user profiles. Should not be used for anything besides alarms, sending texts, and making phone calls. Data on other profiles can be purged by deleting the profile itself, but data on the owner profile cannot be deleted without a factory reset.
 
 * Set alarms
 * Enable the following application permissions:
@@ -234,9 +234,16 @@ The admin profile for creating other user profiles. Should not be used for anyth
 ### Main
 The main profile for browsing the web, taking photos and videos, and using FOSS applications.
 
+* Install the following applications:
+    * Neo Store
+        * FTPClient
+        * LibreTube
 * Enable the following application permissions:
     * Camera: Allow "Camera", "Microphone", "Sensors"
+    * FTPClient: Allow "Network"
     * Gallery: Allow "Storage Scopes" for photo, screenshot, and screen record directories.
+    * LibreTube: Allow "Network"
+    * Neo Store: Allow "Network"
     * Vandium: Allow "Network"
 
 ### Finance
