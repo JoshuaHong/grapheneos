@@ -238,6 +238,7 @@ The main profile for browsing the web, taking photos and videos, and using FOSS 
     * Neo Store
         * FTPClient
         * LibreTube
+        * Notally
 * Enable the following application permissions:
     * Camera: Allow "Camera", "Microphone", "Sensors"
     * FTPClient: Allow "Network"
