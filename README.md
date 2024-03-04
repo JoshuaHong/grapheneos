@@ -59,6 +59,8 @@ Setup for the GrapheneOS environment.
             * 📝 Disable all permissions except "Notifications"
             * 📝 Disable "Background data"
             * 📝 Enable "Pause app activity if unused"
+        * Apps:
+            * 📝 Enable "Network"
     * Special app access
         * Modify system settings
             * 📝 Disable all apps
@@ -234,27 +236,37 @@ The admin profile for creating other user profiles. Should not be used for anyth
 ### Main
 The main profile for browsing the web, taking photos and videos, and using FOSS applications.
 
-* Install the following applications:
-    * Neo Store
-        * FTPClient
-        * LibreTube
-        * Notally
-* Enable the following application permissions:
-    * Camera: Allow "Camera", "Microphone", "Sensors"
-    * FTPClient: Allow "Network"
-    * Gallery: Allow "Storage Scopes" for photo, screenshot, and screen record directories.
-    * LibreTube: Allow "Network"
-    * Neo Store: Allow "Network"
-    * Vandium: Allow "Network"
+* Install and/or enable the following application permissions:
+    * AndBible
+    * Clima: +Network
+    * Camera: +Camera, +Microphone, +Sensors
+    * FTPClient: +Network
+    * Gallery: +Photos and Videos Storage Scopes (photo directory, screenshot directory, screen record directory)
+    * LibreTube: +Network
+    * Neo Store: +Network
+    * Notally
+    * OsmAnd: +Network, -Memory tagging
+    * Vandium: +Network
 
 ### Finance
 The profile for using personally identifiable applications.
 
+* Install and/or enable the following application permissions:
+    * Banking: +Network
+    * Phone: +Network
+
 ### Social
 The profile for using non-FOSS applications.
 
+* Install and/or enable the following application permissions:
+    * Socials: +Network
+    * Uber: +Network
+
 ### Google
-The profile for running Google Play Services.
+The profile for running Google Play services.
+
+* Install and/or enable the following application permissions:
+    * Google Play services
 
 ### Private
 The profile for all other applications.
