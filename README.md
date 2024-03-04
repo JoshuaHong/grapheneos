@@ -252,13 +252,17 @@ The main profile for browsing the web, taking photos and videos, and using FOSS 
 The profile for using personally identifiable applications.
 
 * Install and/or enable the following application permissions:
+    * Aurora Store: +Network
     * Banking: +Network
+    * Neo Store: +Network
     * Phone: +Network
 
 ### Social
 The profile for using non-FOSS applications.
 
 * Install and/or enable the following application permissions:
+    * Aurora Store: +Network
+    * Neo Store: +Network
     * Socials: +Network
     * Uber: +Network
 
@@ -266,7 +270,13 @@ The profile for using non-FOSS applications.
 The profile for running Google Play services.
 
 * Install and/or enable the following application permissions:
+    * Aurora Store: +Network
     * Google Play services
+    * Neo Store: +Network
 
 ### Private
 The profile for all other applications.
+
+* Install and/or enable the following application permissions:
+    * Aurora Store: +Network
+    * Neo Store: +Network
