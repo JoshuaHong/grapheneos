@@ -230,7 +230,7 @@ The admin profile for creating other user profiles. Should not be used for anyth
 * Set alarms
 * Enable the following application permissions:
     * Contacts: +Contacts, +Phone
-    * Messaging: +Contacts, +Phone", +SMS
+    * Messaging: +Contacts, +Phone, +SMS
     * Phone: +Call logs, +Contacts, +Phone
 
 ### Main
