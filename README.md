@@ -229,9 +229,9 @@ The admin profile for creating other user profiles. Should not be used for anyth
 
 * Set alarms
 * Enable the following application permissions:
-    * Contacts: Allow "Contacts", "Phone"
-    * Messaging: Allow "Contacts", "Phone", "SMS"
-    * Phone: Allow "Call logs", "Contacts", "Phone"
+    * Contacts: +Contacts, +Phone
+    * Messaging: +Contacts, +Phone", +SMS
+    * Phone: +Call logs, +Contacts, +Phone
 
 ### Main
 The main profile for browsing the web, taking photos and videos, and using FOSS applications.
