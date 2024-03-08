@@ -245,7 +245,8 @@ The main profile for browsing the web, taking photos and videos, and using FOSS 
     * LibreTube: +Network
     * Neo Store: +Network
     * Notally
-    * OsmAnd: +Network, -Memory tagging
+    * OsmAnd: +Location, +Network, +Sensors, -Memory tagging
+    * RHVoice: +Network (temporarily to install the language)
     * Vandium: +Network
 
 ### Finance
