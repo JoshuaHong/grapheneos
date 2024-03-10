@@ -248,6 +248,9 @@ The main profile for browsing the web, taking photos and videos, and using FOSS 
     * OsmAnd: +Location, +Network, +Sensors, -Memory tagging
     * RHVoice: +Network (temporarily to install the language)
     * Vandium: +Network
+* Enable screenshots in Incognito mode:
+    * In Vanadium, visit `chrome://flags`
+    * Enable `Incognito Screenshot`
 
 ### Finance
 The profile for using personally identifiable applications.
