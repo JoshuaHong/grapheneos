@@ -266,6 +266,7 @@ The profile for using non-FOSS applications.
 
 * Install and/or enable the following application permissions:
     * Aurora Store: +Network
+    * FTPClient: +Network
     * Neo Store: +Network
     * Socials: +Network
     * Uber: +Network
