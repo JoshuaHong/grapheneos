@@ -246,6 +246,7 @@ The main profile for browsing the web, taking photos and videos, and using FOSS 
     * Neo Store: +Network
     * Notally
     * OsmAnd: +Location, +Network, +Sensors, -Memory tagging
+    * QR Scanner
     * RHVoice: +Network (temporarily to install the language)
     * Vandium: +Network
 * Enable screenshots in Incognito mode:
