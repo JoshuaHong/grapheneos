@@ -238,8 +238,9 @@ The main profile for browsing the web, taking photos and videos, and using FOSS 
 
 * Install and/or enable the following application permissions:
     * AndBible
-    * Clima: +Network
+    * Calendar
     * Camera: +Camera, +Microphone, +Sensors
+    * Clima: +Network
     * FTPClient: +Network
     * Gallery: +Photos and Videos Storage Scopes (photo directory, screenshot directory, screen record directory)
     * LibreTube: +Network
