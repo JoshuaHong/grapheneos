@@ -18,7 +18,7 @@ Setup for the GrapheneOS environment.
             * 📝 Preferred network type - 5G (recommended)
             * Wi-Fi calling
                 * ✅ Use Wi-Fi calling
-                * 📝 Calling preference - Call over Wi-Fi
+                * 📝 Calling preference - Call over mobile network
                 * 📝 Roaming preference - Wi-Fi
             * ✅ Carrier video calling
             * ✅ Automatically select network
