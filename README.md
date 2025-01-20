@@ -225,8 +225,7 @@ The main profile.
 
 * Set alarms
 * Install and enable the following application permissions:
-    * Contacts: +Contacts, +Phone
-    * Messaging: +Contacts, +Phone, +SMS
+    * Contacts: +Call logs, +Contacts, +Phone
     * Phone: +Call logs, +Contacts, +Phone
 
 ### Google
