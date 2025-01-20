@@ -101,7 +101,10 @@ Setup for the GrapheneOS environment.
     * ❌ Increase touch sensitivity
     * ✅ Screen saver
 * Wallpaper & style
-    * ✅ Show notifications on the lock screen
+    * Lock screen
+        * ✅ Show notifications on the lock screen
+    * Home screen
+        * ✅ Themed icons
 * Battery
     * Battery Saver
         * ❌ Use Battery Saver
