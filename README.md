@@ -225,8 +225,10 @@ The main profile.
 
 * Set alarms
 * Install and enable the following application permissions:
+    * App store: +Network
     * Contacts: +Call logs, +Contacts, +Phone
     * Phone: +Call logs, +Contacts, +Phone
+    * Vanadium: +Network
 
 ### Google
 The profile with an authenticated Google instance.
