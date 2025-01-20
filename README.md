@@ -1,6 +1,6 @@
 # GrapheneOS
 Setup for the GrapheneOS environment.
-> Last updated: version [2024020500](https://grapheneos.org/releases#2024020500).
+> Last updated: version [2025011500](https://grapheneos.org/releases#2025011500).
 
 ## Installation
 1. Follow the instructions from [grapheneos.org](https://grapheneos.org).
