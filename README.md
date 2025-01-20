@@ -205,16 +205,16 @@ Setup for the GrapheneOS environment.
     * ❌ Automatically sync app data
  
 ## Home screen
-    * Notification bar
-        * Internet | Auto-rotate
-        * Bluetooth | Location
-        * Screen record | Flashlight
-        * Camera access | Mic access
-        * Battery Saver | Data Saver
-    * Home settings
-        * 📝 Notification dots - On
-        * ❌ Add app icons to home screen
-        * ❌ Allow home screen rotation
+ * Notification bar
+     * Internet | Auto-rotate
+     * Bluetooth | Location
+     * Screen record | Flashlight
+     * Camera access | Mic access
+     * Battery Saver | Data Saver
+ * Home settings
+     * 📝 Notification dots - On
+     * ❌ Add app icons to home screen
+     * ❌ Allow home screen rotation
 
 ## Users
 ### Owner
