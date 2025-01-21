@@ -142,13 +142,7 @@ Setup for the GrapheneOS environment.
         * ❌ Require device to be charging
         * ❌ Automatic reboot
     * Users
-        * ✅ Allow user switch
-        * Users
-            * 📝 Owner (red)
-            * 📝 Google (blue)
-                * ❌ Allow running in the background
-                * ❌ Turn on phone calls & SMS
-                * 📝 App installs and updates - Enabled
+        * ❌ Allow user switch
         * ✅ Delete guest activity
         * ❌ Allow guest to make phone calls
         * ✅ Send notifications to current user
@@ -225,13 +219,14 @@ The main profile.
 
 * Set alarms
 * Install and enable the following application permissions:
-    * App store: +Network
-    * Contacts: +Call logs, +Contacts, +Phone
-    * Phone: +Call logs, +Contacts, +Phone
-    * Vanadium: +Network
-
-### Google
-The profile with an authenticated Google instance.
-
-* Install and enable the following application permissions:
-    * YouTube: +Network
+    * App store: -Background data, +Network, +Notifications
+        * Accrescent: -Background data, +Network, +Notifications
+            * AppVerifier: -Background data
+        * Thermometer: -Background data, +Camera +Sensors
+    * Contacts: +Call logs, +Contacts, +Notifications, +Phone
+    * Obtanium: +Allow from this source, -Backgroun data, +Network, +Notifications
+        * Aurora Store: +Allow from this source, +Allow access to Android/obb folder, -Background data, +Network, +Notifications
+        * NeoStore: +Allow from this source, -Background data, +Network, +Notifications
+        * Orbot: -Background data, +Network, -Notifications
+    * Phone: -Background data, +Call logs, +Contacts, +Notifications, +Phone
+    * Vanadium: -Background data, +Network, +Notifications
