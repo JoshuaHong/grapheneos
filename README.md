@@ -219,13 +219,16 @@ The main profile.
 
 * Set alarms
 * Install and enable the following application permissions:
-    * App store: -Background data, +Network, +Notifications
+    * App store: -Background data, +Network, +Notifications (-Apps are up-to-date)
         * Accrescent: -Background data, +Network, +Notifications
             * AppVerifier: -Background data
         * Thermometer: -Background data, +Camera +Sensors
     * Contacts: +Call logs, +Contacts, +Notifications, +Phone
     * Obtanium: +Allow from this source, -Backgroun data, +Network, +Notifications
         * Aurora Store: +Allow from this source, +Allow access to Android/obb folder, -Background data, +Network, +Notifications
+        * FUTO Keyboard: -Background data, +Notifications
+        * KeePassDX: -Background data, +Notifications
+        * LibreTube: -Background data, +Network, +Notifications
         * NeoStore: +Allow from this source, -Background data, +Network, +Notifications
         * Orbot: -Background data, +Network, -Notifications
     * Phone: -Background data, +Call logs, +Contacts, +Notifications, +Phone
