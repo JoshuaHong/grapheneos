@@ -241,28 +241,28 @@ Setup for the GrapheneOS environment.
 ### Owner
 The main profile.
 
-* Install and enable the following application permissions:
-    * App store: +Network, +Notifications (-Apps are up-to-date)
-        * Accrescent: +Network, +Notifications
-            * AppVerifier:
-        * Google Play services: +Sensors
-        * Google Play Store: +Disable
-        * Thermometer: +Camera +Sensors
-    * Camera: +Camera (Allow only while using the app), +Microphone (Allow only while using the app), +Notifications
-    * Contacts: +Call logs, +Contacts, +Notifications, +Phone
-    * Obtanium: +Allow from this source, +Network, +Notifications
-        * Aurora Store: +Allow from this source, +Allow access to Android/obb folder, +Network, +Notifications
-            * Google Maps: +Location (Allow only while using the app, Use precise location), +Network, +Notifications
-        * Breezy Weather: +Network, Notifications
-        * Fossify Calendar: +Notifications
-        * Fossify Gallery: +Notifications, +Photos and videos (+Storage Scopes)
-        * Fossify Messages: +Contacts, +Notifications, +Phone, +SMS
-        * FUTO Keyboard: +Notifications
-        * KeePassDX: +Notifications
-        * LibreTube: +Network, +Notifications
-        * NeoStore: +Allow from this source, +Network, +Notifications
-        * Open Video Editor:
-        * Orbot: +Network, -Notifications
-        * Thunderbird: +Network, +Notifications
-    * Phone: +Call logs, +Contacts, +Notifications, +Phone
-    * Vanadium: +Network, +Notifications
+Install and enable the following application permissions:
+* App store: +Network, +Notifications (-Apps are up-to-date)
+    * Accrescent: +Network, +Notifications
+        * AppVerifier:
+    * Google Play services: +Sensors
+    * Google Play Store: +Disable
+    * Thermometer: +Camera +Sensors
+* Camera: +Camera (Allow only while using the app), +Microphone (Allow only while using the app), +Notifications
+* Contacts: +Call logs, +Contacts, +Notifications, +Phone
+* Obtanium: +Allow from this source, +Network, +Notifications
+    * Aurora Store: +Allow from this source, +Allow access to Android/obb folder, +Network, +Notifications
+        * Google Maps: +Location (Allow only while using the app, Use precise location), +Network, +Notifications
+    * Breezy Weather: +Network, Notifications
+    * Fossify Calendar: +Notifications
+    * Fossify Gallery: +Notifications, +Photos and videos (+Storage Scopes)
+    * Fossify Messages: +Contacts, +Notifications, +Phone, +SMS
+    * FUTO Keyboard: +Notifications
+    * KeePassDX: +Notifications
+    * LibreTube: +Network, +Notifications
+    * NeoStore: +Allow from this source, +Network, +Notifications
+    * Open Video Editor:
+    * Orbot: +Network, -Notifications
+    * Thunderbird: +Network, +Notifications
+* Phone: +Call logs, +Contacts, +Notifications, +Phone
+* Vanadium: +Network, +Notifications
