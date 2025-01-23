@@ -241,7 +241,6 @@ Setup for the GrapheneOS environment.
 ### Owner
 The main profile.
 
-* Set alarms
 * Install and enable the following application permissions:
     * App store: +Network, +Notifications (-Apps are up-to-date)
         * Accrescent: +Network, +Notifications
