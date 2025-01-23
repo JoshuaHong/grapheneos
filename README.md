@@ -142,7 +142,31 @@ Setup for the GrapheneOS environment.
         * ❌ Require device to be charging
         * ❌ Automatic reboot
     * Users
+        * ✅ Allow user switch
+        * Users
+            * 📝 Owner (red)
+            * 📝 Finance (blue)
+                * ❌ Allow running in the background
+                * ❌ Turn on phone calls & SMS
+                * 📝 App installs and updates - Enabled
+                * 📝 Install available apps
+                    * Aurora Store
+                    * Finance apps
+                    * Orbot
+             * 📝 Google (yellow)
+                * ❌ Allow running in the background
+                * ❌ Turn on phone calls & SMS
+                * 📝 App installs and updates - Enabled
+                * 📝 Install available apps
+                    * Aurora Store
+                    * Google Play services
+                    * Maps
+                    * Orbot
+                    * YouTube
         * ❌ Allow user switch
+        * ✅ Delete guest activity
+        * ❌ Allow guest to make phone calls
+        * ✅ Send notifications to current user
         * ✅ Delete guest activity
         * ❌ Allow guest to make phone calls
         * ✅ Send notifications to current user
@@ -219,17 +243,27 @@ The main profile.
 
 * Set alarms
 * Install and enable the following application permissions:
-    * App store: -Background data, +Network, +Notifications (-Apps are up-to-date)
-        * Accrescent: -Background data, +Network, +Notifications
-            * AppVerifier: -Background data
-        * Thermometer: -Background data, +Camera +Sensors
+    * App store: +Network, +Notifications (-Apps are up-to-date)
+        * Accrescent: +Network, +Notifications
+            * AppVerifier:
+        * Google Play services: +Sensors
+        * Google Play Store: +Disable
+        * Thermometer: +Camera +Sensors
+    * Camera: +Camera (Allow only while using the app), +Microphone (Allow only while using the app), +Notifications
     * Contacts: +Call logs, +Contacts, +Notifications, +Phone
-    * Obtanium: +Allow from this source, -Backgroun data, +Network, +Notifications
-        * Aurora Store: +Allow from this source, +Allow access to Android/obb folder, -Background data, +Network, +Notifications
-        * FUTO Keyboard: -Background data, +Notifications
-        * KeePassDX: -Background data, +Notifications
-        * LibreTube: -Background data, +Network, +Notifications
-        * NeoStore: +Allow from this source, -Background data, +Network, +Notifications
-        * Orbot: -Background data, +Network, -Notifications
-    * Phone: -Background data, +Call logs, +Contacts, +Notifications, +Phone
-    * Vanadium: -Background data, +Network, +Notifications
+    * Obtanium: +Allow from this source, +Network, +Notifications
+        * Aurora Store: +Allow from this source, +Allow access to Android/obb folder, +Network, +Notifications
+            * Google Maps: +Location (Allow only while using the app, Use precise location), +Network, +Notifications
+        * Breezy Weather: +Network, Notifications
+        * Fossify Calendar: +Notifications
+        * Fossify Gallery: +Notifications, +Photos and videos (+Storage Scopes)
+        * Fossify Messages: +Contacts, +Notifications, +Phone, +SMS
+        * FUTO Keyboard: +Notifications
+        * KeePassDX: +Notifications
+        * LibreTube: +Network, +Notifications
+        * NeoStore: +Allow from this source, +Network, +Notifications
+        * Open Video Editor:
+        * Orbot: +Network, -Notifications
+        * Thunderbird: +Network, +Notifications
+    * Phone: +Call logs, +Contacts, +Notifications, +Phone
+    * Vanadium: +Network, +Notifications
