@@ -253,16 +253,19 @@ Install and enable the following application permissions:
 * Obtanium: +Allow from this source, +Network, +Notifications
     * Aurora Store: +Allow from this source, +Allow access to Android/obb folder, +Network, +Notifications
         * Google Maps: +Location (Allow only while using the app, Use precise location), +Network, +Notifications
+    * Auxio: +Storage Scopes
     * Breezy Weather: +Network, Notifications
     * Fossify Calendar: +Notifications
     * Fossify Gallery: +Notifications, +Photos and videos (+Storage Scopes)
     * Fossify Messages: +Contacts, +Notifications, +Phone, +SMS
+    * Fossify Notes:
     * FUTO Keyboard: +Notifications
     * KeePassDX: +Notifications
     * LibreTube: +Network, +Notifications
     * NeoStore: +Allow from this source, +Network, +Notifications
     * Open Video Editor:
     * Orbot: +Network, -Notifications
+    * Seal: +Network, +Notifications
     * Thunderbird: +Network, +Notifications
 * Phone: +Call logs, +Contacts, +Notifications, +Phone
 * Vanadium: +Network, +Notifications
