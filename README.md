@@ -60,7 +60,6 @@ Setup for the GrapheneOS environment.
     * See all apps
         * For each app:
             * 📝 Disable all permissions except "Notifications"
-            * ❌ Background data
             * ✅ Manage app if unused
         * Apps:
             * 📝 Enable "Network"
