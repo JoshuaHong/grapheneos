@@ -254,5 +254,6 @@ Setup for the GrapheneOS environment.
     * [Open Video Editor](https://github.com/devhyper/open-video-editor):
     * [Orbot](https://github.com/guardianproject/orbot-android): Network
     * [Thunderbird](https://github.com/thunderbird/thunderbird-android): Network, Notifications
+    * [YTDLnis](https://github.com/deniscerri/ytdlnis): Network, Notifications
 * Phone: Call logs, Contacts, Notifications, Phone
 * Vanadium: Network, Notifications
