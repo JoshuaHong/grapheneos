@@ -37,6 +37,10 @@ Setup for the GrapheneOS environment.
         * ❌ Bluetooth tethering
         * ❌ Ethernet tethering
     * ✅ Data Saver
+    * VPN
+        * VPN
+            * ✅ Always-on VPN
+            * ❌ Block connections without VPN
     * 📝 Private DNS - Automatic
     * 📝 Internet connectivity checks - GrapheneOS server
     * 📝 Attestation key provisioning - Enabled (GrapheneOS proxy)
