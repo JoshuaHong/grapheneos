@@ -230,7 +230,7 @@ Setup for the GrapheneOS environment.
      * ❌ Allow home screen rotation
 
 ## Apps
-* App store: +Network, +Notifications (-Apps are up-to-date)
+* App store: +Network, +Notifications
     * Accrescent: +Network, +Notifications
         * AppVerifier:
     * Google Play services: +Sensors
