@@ -38,7 +38,7 @@ Setup for the GrapheneOS environment.
         * ❌ Ethernet tethering
     * ✅ Data Saver
     * VPN
-        * VPN
+        * VPN (⚙️)
             * ✅ Always-on VPN
             * ❌ Block connections without VPN
     * 📝 Private DNS - Automatic
@@ -149,7 +149,7 @@ Setup for the GrapheneOS environment.
         * ✅ Allow user switch
         * Users
             * 📝 Owner (red)
-            * 📝 Google (blue)
+            * 📝 Google (yellow)
                 * ❌ Allow running in the background
                 * ❌ Turn on phone calls & SMS
                 * 📝 App installs and updates - Enabled
@@ -159,6 +159,7 @@ Setup for the GrapheneOS environment.
                     * Google Play services
                     * Google Play Store
                     * Orbot
+            * 📝 Private (blue)
         * ✅ Delete guest activity
         * ❌ Allow guest to make phone calls
         * ✅ Send notifications to current user
