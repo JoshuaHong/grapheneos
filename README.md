@@ -145,28 +145,16 @@ Setup for the GrapheneOS environment.
         * ✅ Allow user switch
         * Users
             * 📝 Owner (red)
-            * 📝 Finance (blue)
+            * 📝 Google (blue)
                 * ❌ Allow running in the background
                 * ❌ Turn on phone calls & SMS
                 * 📝 App installs and updates - Enabled
                 * 📝 Install available apps
                     * Aurora Store
-                    * Finance apps
-                    * Orbot
-             * 📝 Google (yellow)
-                * ❌ Allow running in the background
-                * ❌ Turn on phone calls & SMS
-                * 📝 App installs and updates - Enabled
-                * 📝 Install available apps
-                    * Aurora Store
+                    * FTPClient
                     * Google Play services
-                    * Maps
+                    * Google Play Store
                     * Orbot
-                    * YouTube
-        * ❌ Allow user switch
-        * ✅ Delete guest activity
-        * ❌ Allow guest to make phone calls
-        * ✅ Send notifications to current user
         * ✅ Delete guest activity
         * ❌ Allow guest to make phone calls
         * ✅ Send notifications to current user
@@ -237,11 +225,7 @@ Setup for the GrapheneOS environment.
      * ❌ Add app icons to home screen
      * ❌ Allow home screen rotation
 
-## Users
-### Owner
-The main profile.
-
-Install and enable the following application permissions:
+## Apps
 * App store: +Network, +Notifications (-Apps are up-to-date)
     * Accrescent: +Network, +Notifications
         * AppVerifier:
@@ -260,6 +244,7 @@ Install and enable the following application permissions:
     * Fossify Messages: +Contacts, +Notifications, +Phone, +SMS
     * Fossify Notes:
     * FUTO Keyboard: +Notifications
+    * InnerTune: +Network, +Notifications
     * KeePassDX: +Notifications
     * LibreTube: +Network, +Notifications
     * NeoStore: +Allow from this source, +Network, +Notifications
