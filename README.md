@@ -231,7 +231,7 @@ Setup for the GrapheneOS environment.
 
 ## Apps
 * App store: +Network, +Notifications
-    * Accrescent: +Network, +Notifications
+    * Accrescent: +Allow from this source, +Network, +Notifications
         * AppVerifier:
     * Google Play services: +Sensors
     * Google Play Store: +Disable
