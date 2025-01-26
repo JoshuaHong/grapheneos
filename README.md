@@ -238,23 +238,20 @@ Setup for the GrapheneOS environment.
     * Thermometer: +Camera (Allow only while using the app), +Sensors
 * Camera: +Camera (Allow only while using the app), +Microphone (Allow only while using the app), +Notifications
 * Contacts: +Call logs, +Contacts, +Notifications, +Phone
-* Obtanium: +Allow from this source, +Network, +Notifications
-    * Aurora Store: +Allow from this source, +Allow access to Android/obb folder, +Network, +Notifications
+* [Obtanium](https://github.com/ImranR98/Obtainium): +Allow from this source, +Network, +Notifications
+    * [Aurora Store](https://gitlab.com/AuroraOSS/AuroraStore): +Allow from this source, +Allow access to Android/obb folder, +Network, +Notifications
         * Google Maps: +Location (Allow only while using the app, Use precise location), +Network, +Notifications
-    * Auxio: +Storage Scopes
-    * Breezy Weather: +Network, Notifications
-    * Fossify Calendar: +Notifications
-    * Fossify Gallery: +Notifications, +Photos and videos (+Storage Scopes)
-    * Fossify Messages: +Contacts, +Notifications, +Phone, +SMS
-    * Fossify Notes:
-    * FUTO Keyboard: +Notifications
-    * InnerTune: +Network, +Notifications
-    * KeePassDX: +Notifications
-    * LibreTube: +Network, +Notifications
-    * NeoStore: +Allow from this source, +Network, +Notifications
-    * Open Video Editor:
-    * Orbot: +Network, -Notifications
-    * Seal: +Network, +Notifications
-    * Thunderbird: +Network, +Notifications
+    * [Breezy Weather](https://github.com/breezy-weather/breezy-weather): +Network, +Notifications
+    * [Fossify Calendar](https://github.com/FossifyOrg/calendar): +Notifications
+    * [Fossify Gallery](https://github.com/FossifyOrg/Gallery): +Notifications, +Photos and videos (+Storage Scopes)
+    * [Fossify Messages](https://github.com/FossifyOrg/Messages): +Contacts, +Notifications, +Phone, +SMS
+    * [Fossify Notes](https://github.com/FossifyOrg/Notes):
+    * [FUTO Keyboard](https://github.com/futo-org/android-keyboard): +Notifications
+    * [InnerTune](https://github.com/z-huang/InnerTune): +Network, +Notifications
+    * [KeePassDX](https://github.com/Kunzisoft/KeePassDX): +Notifications
+    * [LibreTube](https://github.com/libre-tube/LibreTube): +Network, +Notifications
+    * [Open Video Editor](https://github.com/devhyper/open-video-editor):
+    * [Orbot](https://github.com/guardianproject/orbot-android): +Network, -Notifications
+    * [Thunderbird](https://github.com/thunderbird/thunderbird-android): +Network, +Notifications
 * Phone: +Call logs, +Contacts, +Notifications, +Phone
 * Vanadium: +Network, +Notifications
