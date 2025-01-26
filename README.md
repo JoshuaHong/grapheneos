@@ -235,7 +235,7 @@ Setup for the GrapheneOS environment.
         * AppVerifier:
     * Google Play services: +Sensors
     * Google Play Store: +Disable
-    * Thermometer: +Camera +Sensors
+    * Thermometer: +Camera (Allow only while using the app), +Sensors
 * Camera: +Camera (Allow only while using the app), +Microphone (Allow only while using the app), +Notifications
 * Contacts: +Call logs, +Contacts, +Notifications, +Phone
 * Obtanium: +Allow from this source, +Network, +Notifications
