@@ -236,7 +236,7 @@ Setup for the GrapheneOS environment.
     * Google Play services: Sensors
     * Google Play Store: Disable
     * Thermometer: Camera (Allow only while using the app), Sensors
-* Camera: Camera (Allow only while using the app), Microphone (Allow only while using the app), Notifications
+* Camera: Camera (Allow only while using the app), Microphone (Allow only while using the app), Notifications, Sensors
 * Contacts: Call logs, Contacts, Notifications, Phone
 * [Obtanium](https://github.com/ImranR98/Obtainium): Allow from this source, Network, Notifications
     * [AndBible](https://github.com/AndBible/and-bible): Notifications
