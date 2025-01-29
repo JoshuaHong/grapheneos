@@ -242,6 +242,7 @@ Setup for the GrapheneOS environment.
     * [AndBible](https://github.com/AndBible/and-bible): Notifications
     * [Aurora Store](https://gitlab.com/AuroraOSS/AuroraStore): Allow from this source, Allow access to Android/obb folder, Network, Notifications
         * Google Maps: Location (Allow only while using the app, Use precise location), Network, Notifications
+    * [Auxio](https://github.com/OxygenCobalt/Auxio): Music and audio (Storage Scopes), Notifications
     * [Breezy Weather](https://github.com/breezy-weather/breezy-weather): Network, Notifications
     * [Fossify Calendar](https://github.com/FossifyOrg/calendar): Notifications
     * [Fossify Gallery](https://github.com/FossifyOrg/Gallery): Notifications, Photos and videos (Storage Scopes)
