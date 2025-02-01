@@ -248,6 +248,7 @@ Setup for the GrapheneOS environment.
     * [Fossify Gallery](https://github.com/FossifyOrg/Gallery): Notifications, Photos and videos (Storage Scopes)
     * [Fossify Messages](https://github.com/FossifyOrg/Messages): Contacts, Notifications, Phone, SMS
     * [Fossify Notes](https://github.com/FossifyOrg/Notes):
+    * [FTPClient](https://codeberg.org/qwerty287/ftpclient): Network
     * [FUTO Keyboard](https://github.com/futo-org/android-keyboard): Notifications
     * [InnerTune](https://github.com/z-huang/InnerTune): Network, Notifications
     * [KeePassDX](https://github.com/Kunzisoft/KeePassDX): Notifications
