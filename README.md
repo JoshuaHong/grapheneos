@@ -122,6 +122,10 @@ Setup for the GrapheneOS environment.
         * Regional preferences
             * 📝 Temperature - Celsius (°C)
             * 📝 First day of week - Sunday
+    * Keyboard
+        * On-screen keyboard
+            * ❌ Keyboard
+            * ✅ FUTO Keyboard
     * Gestures
         * Quickly open camera
             * ✅ Quickly open camera
@@ -253,6 +257,7 @@ Setup for the GrapheneOS environment.
     * [InnerTune](https://github.com/z-huang/InnerTune): Network, Notifications
     * [KeePassDX](https://github.com/Kunzisoft/KeePassDX): Notifications
     * [LibreTube](https://github.com/libre-tube/LibreTube): Network, Notifications
+    * [Neo Store](https://github.com/NeoApplications/Neo-Store): Network, Notifications
     * [Open Video Editor](https://github.com/devhyper/open-video-editor):
     * [Orbot](https://github.com/guardianproject/orbot-android): Network
     * [Thunderbird](https://github.com/thunderbird/thunderbird-android): Network, Notifications
