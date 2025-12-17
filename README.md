@@ -1,6 +1,6 @@
 # GrapheneOS
 Setup for the GrapheneOS environment.
-> Last updated: version [2025011500](https://grapheneos.org/releases#2025011500).
+> Last updated: version [2025120400](https://grapheneos.org/releases#2025120400).
 
 ## Installation
 1. Follow the instructions from [grapheneos.org](https://grapheneos.org).
@@ -9,7 +9,7 @@ Setup for the GrapheneOS environment.
 ## Settings
 * Network & internet
     * Internet
-        * ✅ Wi-Fi
+        * ✅ Use Wi-Fi
             * 📝 Connect to a network
         * Network preferences
             * ❌ Turn on Wi-Fi automatically
@@ -27,31 +27,40 @@ Setup for the GrapheneOS environment.
                 * 📝 Calling preference - Call over mobile network
                 * 📝 Roaming preference - Wi-Fi
             * ✅ Automatically select network
-            * ✅ Allow 2G
+            * ❌ 2G network protection
         * ✅ Mobile data
-    * ❌ eSIM support
+    * ✅ eSIM support
     * ❌ Airplane mode
-    * ❌ Hotspot & tethering
+    * Hotspot & tethering
         * ❌ Wi-fi hotspot
         * ❌ USB tethering
         * ❌ Bluetooth tethering
         * ❌ Ethernet tethering
-    * ✅ Data Saver
+    * Data Saver
+        * ✅ Use Data Saver
     * VPN
         * VPN (⚙️)
             * ✅ Always-on VPN
             * ❌ Block connections without VPN
     * 📝 Private DNS - Automatic
     * 📝 Internet connectivity checks - GrapheneOS server
+    * 📝 Mobile network security
     * 📝 Attestation key provisioning - Enabled (GrapheneOS proxy)
     * 📝 Widevine provisioning - Enabled (GrapheneOS proxy)
 * Connected Devices
     * Connection preferences
         * Bluetooth
             * ❌ Use Bluetooth
+            * ❌ Automatically turn on tomorrow
+        * Audio sharing
+            * ❌ Share audio
         * NFC
             * ❌ Use NFC
             * ✅ Require device unlock for NFC
+        * Thread
+            * ❌ Use Thread
+        * Connected Cameras
+            * ❌ Use Connected Cameras
         * Printing
             * Default Print Service
                 * ❌ Use print service
@@ -59,24 +68,32 @@ Setup for the GrapheneOS environment.
 * Apps
     * See all apps
         * For each app:
-            * 📝 Disable all permissions except "Notifications"
+            * 📝 Disable all permissions
+            * ✅ Enable "Notifications"
             * ✅ Manage app if unused
-        * Apps:
-            * 📝 Enable "Network"
     * Special app access
         * Modify system settings
             * 📝 Disable all apps
-        * ❌ Special access to hardware accelerators for Google apps
+        * Special access to hardware accelerators for Google apps
+            * ❌ Grant special access to hardware accelerators for Google apps
 * Notifications
     * Notification history
         * ❌ Use notification history
     * Bubbles
         * ✅ Allow apps to show bubbles
-    * 📝 Notifications on lock screen - Hide silent conversations and notifications
-    * ❌ Sensitive notifications
-    * ❌ Do Not Disturb
-    * ❌ Flash notifications
-    * ✅ Wireless emergency alerts
+    * Notifications on lock screen
+        * ✅ On
+        * 📝 Compact view
+        * ✅ Show viewed notification icons
+        * ❌ Show silent notifications
+        * ❌ Show sensitive content
+    * Notification cooldown
+        * ✅ Use notification cooldown
+    * Flash notifications
+        * ❌ Camera flash
+        * ❌ Screen flash
+    * Wireless emergency alerts
+        * ✅ Allow alerts
         * 📝 Alert reminder - Once
     * ❌ Hide silent notifications in status bar
     * ❌ Allow notification snoozing
@@ -85,29 +102,25 @@ Setup for the GrapheneOS environment.
 * Display
     * ✅ Adaptive brightness
     * Lock screen
-        * 📝 Privacy - Show sensitive content only when unlocked
         * ❌ Use device controls
         * ✅ Dynamic clock
-        * ❌ Always show time and info
         * Tap to check phone
             * ✅ Tap to check phone
         * Lift to check phone
             * ✅ Lift to check phone
         * ✅ Wake screen for notifications
+    * ❌ Always-on display
     * 📝 Screen timeout - 1 minute
     * ❌ Dark theme
     * ❌ Night Light
     * 📝 Colors - Natural
     * ✅ Auto-rotate screen
     * 📝 Screen resolution - High resolution
-    * ✅ Smooth Display
-    * ❌ Increase touch sensitivity
-    * ✅ Screen saver
-* Wallpaper & style
-    * Lock screen
-        * ✅ Show notifications on the lock screen
-    * Home screen
-        * ✅ Themed icons
+    * ✅ Adaptive tone
+    * ✅ Smooth display
+    * ❌ Screen protector mode
+    * Screen saver
+        * ✅ Use screen saver
 * Battery
     * Battery Saver
         * ❌ Use Battery Saver
@@ -115,35 +128,45 @@ Setup for the GrapheneOS environment.
         * ✅ Turn off at 90%
     * Battery Manager
         * ✅ Use Battery Manager
+    * Charging optimization
+        * ✅ Limit to 80%
     * ✅ Battery percentage
-    * ❌ Battery share
 * System
-    * Languages
-        * Regional preferences
-            * 📝 Temperature - Celsius (°C)
-            * 📝 First day of week - Sunday
+    * Language & region
+        * Temperature
+            * 📝 Celsius (°C)
+        * Measurement system
+            * 📝 Metric
+        * First day of week
+            * 📝 Sunday
     * Keyboard
         * On-screen keyboard
             * ❌ Keyboard
             * ✅ FUTO Keyboard
+        * Spell checker
+            * ✅ Use spell checker
     * Gestures
-        * Quickly open camera
-            * ✅ Quickly open camera
-        * 📝 Navigation mode - Gesture navigation
+        * Double press power button
+            * ✅ Use double press
+            * 📝 Camera
+        * Navigation mode
+            * 📝 Gesture navigation
         * One-handed mode
             * ❌ Use one-handed mode
+            * ❌ One-handed mode shortcut
         * Tap to check phone
             * ✅ Tap to check phone
         * Lift to check phone
             * ✅ Lift to check phone
-        * ✅ Prevent rignging - Vibrate
+        * ✅ Prevent rignging
+            * 📝 Vibrate
     * Date & time
-        * ✅ Set time automatically
-        * ✅ Set automatically
-        * ❌ Use locale default
+        * ✅ Automatic date and time
+        * ✅ Automatic time zone
         * ✅ Use 24-hour format
-    * System update
+    * System updates
         * 📝 Release channel - Stable
+        * ✅ Receive security preview releases
         * 📝 Permitted networks - Unmetered
         * ✅ Require battery above warning level
         * ❌ Require device to be charging
@@ -168,14 +191,16 @@ Setup for the GrapheneOS environment.
         * ✅ Send notifications to current user
 * Security & privacy
     * Device unlock
-        * 📝 Screen lock - PIN (⚙️)
+        * Screen lock
+            * 📝 PIN
             * ❌ Scramble PIN layout
             * ✅ Enhanced PIN privacy
+            * ✅ Allow camera access when locked
             * 📝 Lock after screen timeout - Immediately
             * ✅ Power button instantly locks
-            * ✅ Allow camera access when locked
-        * 📝 Fingerprint Unlock
-            * ✅ Use for screen unlocking
+        * Fingerprint
+            * ✅ Unlock your phone
+            * ✅ Verify it's you in apps
     * Privacy controls
         * ❌ Camera access
         * ❌ Microphone access
@@ -188,13 +213,23 @@ Setup for the GrapheneOS environment.
                     * ❌ Wi-Fi scanning
                 * Bluetooth scanning
                     * ❌ Bluetooth scanning
-            * 📝 Secure User Plan Location (SUPL) - Enabled (GrapheneOS proxy)
-            * 📝 Predicted Satellite Data Service (PSDS) - Enabled (GrapheneOS server)
+                * Network location
+                    * ❌ Off
+                * Geocoder
+                    * ❌ Off
+            * Secure User Plan Location (SUPL)
+                * 📝 GrapheneOS proxy
+            * Predicted Satellite Data Service (PSDS)
+                * 📝 GrapheneOS server
     * Exploit protection
-        * 📝 Auto reboot - 72 hours
-        * 📝 USB-C port - Off
-        * 📝 Turn off Wi-Fi automatically - Never
-        * 📝 Turn off Bluetooth automatically - 1 minute
+        * Auto reboot
+            * 📝 72 hours
+        * USB-C port
+            * 📝 Off
+        * Turn off Wi-Fi automatically
+            * 📝 Never
+        * Turn off Bluetooth automatically
+            * 📝 1 minute
         * Memory tagging
             * ❌ Enable by default
         * Native code debugging
@@ -208,16 +243,18 @@ Setup for the GrapheneOS environment.
         * Secure app spawning
             * ✅ Use secure app spawning
     * More security & privacy
-        * 📝 Notifications on lock screen - Show sensitive content only when unlocked
         * ✅ Show media on lock screen
         * ❌ Allow Sensors permission to apps by default
         * ❌ Save screenshot timestamp to EXIF
-    * SIM lock
-        * ❌ Lock SIM
-    * App pinning
-        * ❌ Use app pinning
-    * ❌ Notify about system process crashes
-    * ✅ Automatic exploit protection compatibility mode
+        * Mobile network security
+            * ❌ Network notifications
+            * ❌ 2G network protection
+        * SIM lock
+            * ❌ Lock SIM
+        * App pinning
+            * ❌ Use app pinning
+        * ❌ Notify about system process crashes
+        * ✅ Automatic exploit protection compatibility mode
 * Passwords, passkeys & accounts
     * ❌ Automatically sync app data
  
@@ -231,7 +268,6 @@ Setup for the GrapheneOS environment.
  * Home settings
      * 📝 Notification dots - On
      * ❌ Add app icons to home screen
-     * ❌ Allow home screen rotation
 
 ## Apps
 * App store: Network, Notifications
