@@ -271,18 +271,14 @@ Setup for the GrapheneOS environment.
 
 ## Apps
 * App store: Network, Notifications
-    * Accrescent: Allow from this source, Network, Notifications
-        * AppVerifier:
     * Google Play services: Sensors
     * Google Play Store: Disable
     * Thermometer: Camera (Allow only while using the app), Sensors
 * Camera: Camera (Allow only while using the app), Microphone (Allow only while using the app), Notifications, Sensors
 * Contacts: Call logs, Contacts, Notifications, Phone
 * [Obtanium](https://github.com/ImranR98/Obtainium): Allow from this source, Network, Notifications
-    * [AndBible](https://github.com/AndBible/and-bible): Notifications
     * [Aurora Store](https://gitlab.com/AuroraOSS/AuroraStore): Allow from this source, Allow access to Android/obb folder, Network, Notifications
         * Google Maps: Location (Allow only while using the app, Use precise location), Network, Notifications
-    * [Auxio](https://github.com/OxygenCobalt/Auxio): Music and audio (Storage Scopes), Notifications
     * [Breezy Weather](https://github.com/breezy-weather/breezy-weather): Network, Notifications
     * [Fossify Calendar](https://github.com/FossifyOrg/calendar): Notifications
     * [Fossify Gallery](https://github.com/FossifyOrg/Gallery): Notifications, Photos and videos (Storage Scopes)
@@ -293,10 +289,10 @@ Setup for the GrapheneOS environment.
     * [InnerTune](https://github.com/z-huang/InnerTune): Network, Notifications
     * [KeePassDX](https://github.com/Kunzisoft/KeePassDX): Notifications
     * [LibreTube](https://github.com/libre-tube/LibreTube): Network, Notifications
+    * [Metrolist](https://github.com/mostafaalagamy/Metrolist): Network, Notifications
     * [Neo Store](https://github.com/NeoApplications/Neo-Store): Network, Notifications
     * [Open Video Editor](https://github.com/devhyper/open-video-editor):
     * [Orbot](https://github.com/guardianproject/orbot-android): Network
     * [Thunderbird](https://github.com/thunderbird/thunderbird-android): Network, Notifications
-    * [YTDLnis](https://github.com/deniscerri/ytdlnis): Network, Notifications
 * Phone: Call logs, Contacts, Notifications, Phone
 * Vanadium: Network, Notifications
