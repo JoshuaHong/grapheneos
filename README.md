@@ -279,6 +279,7 @@ Setup for the GrapheneOS environment.
 * [Obtanium](https://github.com/ImranR98/Obtainium): Allow from this source, Network, Notifications
     * [Aurora Store](https://gitlab.com/AuroraOSS/AuroraStore): Allow from this source, Allow access to Android/obb folder, Network, Notifications
         * Google Maps: Location (Allow only while using the app, Use precise location), Network, Notifications
+    * [Auxio](https://github.com/OxygenCobalt/Auxio): Music and audio (Storage Scopes), Notifications
     * [Breezy Weather](https://github.com/breezy-weather/breezy-weather): Network, Notifications
     * [Fossify Calendar](https://github.com/FossifyOrg/calendar): Notifications
     * [Fossify Gallery](https://github.com/FossifyOrg/Gallery): Notifications, Photos and videos (Storage Scopes)
@@ -294,5 +295,6 @@ Setup for the GrapheneOS environment.
     * [Open Video Editor](https://github.com/devhyper/open-video-editor):
     * [Orbot](https://github.com/guardianproject/orbot-android): Network
     * [Thunderbird](https://github.com/thunderbird/thunderbird-android): Network, Notifications
+    * [YTDLnis](https://github.com/deniscerri/ytdlnis): Network, Notifications
 * Phone: Call logs, Contacts, Notifications, Phone
 * Vanadium: Network, Notifications
