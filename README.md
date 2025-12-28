@@ -279,6 +279,8 @@ Setup for the GrapheneOS environment.
 * [Obtanium](https://github.com/ImranR98/Obtainium): Allow from this source, Network, Notifications
     * [Aurora Store](https://gitlab.com/AuroraOSS/AuroraStore): Allow from this source, Allow access to Android/obb folder, Network, Notifications
         * Google Maps: Location (Allow only while using the app, Use precise location), Network, Notifications
+        * Google Translate: Notifications
+        * Literal Word: Notifications
     * [Auxio](https://github.com/OxygenCobalt/Auxio): Music and audio (Storage Scopes), Notifications
     * [Breezy Weather](https://github.com/breezy-weather/breezy-weather): Network, Notifications
     * [Fossify Calendar](https://github.com/FossifyOrg/calendar): Notifications
