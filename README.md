@@ -276,6 +276,8 @@ Setup for the GrapheneOS environment.
     * Thermometer: Camera (Allow only while using the app), Sensors
 * Camera: Camera (Allow only while using the app), Microphone (Allow only while using the app), Notifications, Sensors
 * Contacts: Call logs, Contacts, Notifications, Phone
+* Gallery: Disable
+* Messaging: Disable
 * [Obtanium](https://github.com/ImranR98/Obtainium): Allow from this source, Network, Notifications
     * [Aurora Store](https://gitlab.com/AuroraOSS/AuroraStore): Allow from this source, Allow access to Android/obb folder, Network, Notifications
         * Google Maps: Location (Allow only while using the app, Use precise location), Network, Notifications
