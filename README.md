@@ -279,6 +279,7 @@ Setup for the GrapheneOS environment.
 * Gallery: Disable
 * Messaging: Disable
 * [Obtanium](https://github.com/ImranR98/Obtainium): Allow from this source, Network, Notifications
+    * [AnkiDroid](https://github.com/ankidroid/Anki-Android): All files access (Storage Scopes), Network, Notifications
     * [Aurora Store](https://gitlab.com/AuroraOSS/AuroraStore): Allow from this source, Allow access to Android/obb folder, Network, Notifications
         * Google Maps: Location (Allow only while using the app, Use precise location), Network, Notifications
         * Google Translate: Notifications
@@ -291,7 +292,6 @@ Setup for the GrapheneOS environment.
     * [Fossify Notes](https://github.com/FossifyOrg/Notes):
     * [FTPClient](https://codeberg.org/qwerty287/ftpclient): Network
     * [FUTO Keyboard](https://github.com/futo-org/android-keyboard): Notifications
-    * [InnerTune](https://github.com/z-huang/InnerTune): Network, Notifications
     * [KeePassDX](https://github.com/Kunzisoft/KeePassDX): Notifications
     * [LibreTube](https://github.com/libre-tube/LibreTube): Network, Notifications
     * [Metrolist](https://github.com/mostafaalagamy/Metrolist): Network, Notifications
