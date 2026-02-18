@@ -298,6 +298,7 @@ Setup for the GrapheneOS environment.
     * [Neo Store](https://github.com/NeoApplications/Neo-Store): Network, Notifications
     * [Open Video Editor](https://github.com/devhyper/open-video-editor):
     * [Orbot](https://github.com/guardianproject/orbot-android): Network
+    * [ScreenStream](https://github.com/dkrivoruchko/ScreenStream): Notifications
     * [Thunderbird](https://github.com/thunderbird/thunderbird-android): Network, Notifications
     * [YTDLnis](https://github.com/deniscerri/ytdlnis): Network, Notifications
 * Phone: Call logs, Contacts, Notifications, Phone
