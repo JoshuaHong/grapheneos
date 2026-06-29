@@ -290,7 +290,7 @@ Setup for the GrapheneOS environment.
     * [Fossify Gallery](https://github.com/FossifyOrg/Gallery): Notifications, Photos and videos (Storage Scopes)
     * [Fossify Messages](https://github.com/FossifyOrg/Messages): Contacts, Notifications, Phone, SMS
     * [Fossify Notes](https://github.com/FossifyOrg/Notes):
-    * [FTPClient](https://codeberg.org/qwerty287/ftpclient): Network
+    * [FTPClient](https://codeberg.org/qwerty287/ftpclient): Network, Nearby devices
     * [FUTO Keyboard](https://github.com/futo-org/android-keyboard): Notifications
     * [KeePassDX](https://github.com/Kunzisoft/KeePassDX): Notifications
     * [LibreTube](https://github.com/libre-tube/LibreTube): Network, Notifications
