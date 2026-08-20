@@ -290,7 +290,6 @@ Setup for the GrapheneOS environment.
     * [Fossify Gallery](https://github.com/FossifyOrg/Gallery): Notifications, Photos and videos (Storage Scopes)
     * [Fossify Messages](https://github.com/FossifyOrg/Messages): Contacts, Notifications, Phone, SMS
     * [Fossify Notes](https://github.com/FossifyOrg/Notes):
-    * [FTPClient](https://codeberg.org/qwerty287/ftpclient): Network, Nearby devices
     * [FUTO Keyboard](https://github.com/futo-org/android-keyboard): Notifications
     * [KeePassDX](https://github.com/Kunzisoft/KeePassDX): Notifications
     * [LibreTube](https://github.com/libre-tube/LibreTube): Network, Notifications
@@ -299,6 +298,7 @@ Setup for the GrapheneOS environment.
     * [Open Video Editor](https://github.com/devhyper/open-video-editor):
     * [Orbot](https://github.com/guardianproject/orbot-android): Network
     * [ScreenStream](https://github.com/dkrivoruchko/ScreenStream): Notifications
+    * [SSH Borg](https://github.com/payne1982/sshborg): Network, Nearby devices
     * [Thunderbird](https://github.com/thunderbird/thunderbird-android): Network, Notifications
     * [YTDLnis](https://github.com/deniscerri/ytdlnis): Network, Notifications
 * Phone: Call logs, Contacts, Notifications, Phone
