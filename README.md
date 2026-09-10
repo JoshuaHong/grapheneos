@@ -294,6 +294,7 @@ Setup for the GrapheneOS environment.
     * [KeePassDX](https://github.com/Kunzisoft/KeePassDX): Notifications
     * [LibreTube](https://github.com/libre-tube/LibreTube): Network, Notifications
     * [Metrolist](https://github.com/mostafaalagamy/Metrolist): Network, Notifications
+    * [MJ PDF](https://github.com/mudlej/mj_pdf):
     * [Neo Store](https://github.com/NeoApplications/Neo-Store): Network, Notifications
     * [Open Video Editor](https://github.com/devhyper/open-video-editor):
     * [Orbot](https://github.com/guardianproject/orbot-android): Network
